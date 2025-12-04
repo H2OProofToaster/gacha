@@ -406,37 +406,37 @@ let i18nDefault = i18nStrings.en = {
                 star_cost_copies: "“{0}” extra Kopien",
                 star_cant: "Dieser Karte kann nicht fusioniert sein.",
                 star_cant_max: "Maximum Stern erriecht.",
-                star_cant_cost: "Insufficient copies.",
-                star_prompt: "Click to fuse.",
-                star_button: "Fuse",
-                star_button_cant: "Can't fuse",
-                star_button_max: "Max star reached",
+                star_cant_cost: "Nicht genug Kopien.",
+                star_prompt: "Clicke zu fusioneiren.",
+                star_button: "Fusionere",
+                star_button_cant: "Kann nicht fusionieren",
+                star_button_max: "Maximum Stern erriecht",
 
-                buy_cost: "Purchase cost:",
-                buy_prompt: "Click to purchase.",
-                buy_button: "Purchase",
-                buy_button_cant: "Can't purchase",
+                buy_cost: "Kaufpreis:",
+                buy_prompt: "Clicke zu kaufen.",
+                buy_button: "Kaufen",
+                buy_button_cant: "Kann nicht kaufen",
 
-                legacyDraw_prompt: "Click to pick this card.",
-                legacyDraw_button: "Pick",
+                legacyDraw_prompt: "Clicke um dieser Karte zu auswählen",
+                legacyDraw_button: "Auswählen",
             }
         },
         skill: {
             strings: {
-                skill: "(skill)",
-                skill_locked: "This skill is locked",
+                skill: "(Fähigkeit)",
+                skill_locked: "Diese Fähigkeit ist verschlossen",
 
-                action_activate: "Activate",
-                action_activated: "Activated",
-                action_inCooldown: "In cooldown ({0})"
+                action_activate: "Activieren",
+                action_activated: "Activiert",
+                action_inCooldown: "In Abklingzeit ({0})"
             }
         },
         pack: {
-            buy_confirm: "Would you like to purchase “{0}”?",
-            perks: "This booster pack contains:",
+            buy_confirm: "Würdest du “{0}” kaufen?",
+            perks: "Diese Booster Pack erhält:",
             
-            buy_action_no: "No, go back",
-            buy_action_yes: "Purchase for {0}",
+            buy_action_no: "Nein, zurückgehen",
+            buy_action_yes: "Kaufen für {0}",
 
             strings: {
                 pack: "(booster pack)",
@@ -444,56 +444,56 @@ let i18nDefault = i18nStrings.en = {
         },
         buff: {
             strings: {
-                buff: "(buff)",
+                buff: "(stärkung)",
             }
         },
         ad: {
             strings: {
-                sponsored: ["“Sponsored”", "“Promoted”", "“Advertisement”"],
+                sponsored: ["“Gesponsert”", "“Promotet”", "“werbung”"],
                 taunts: {
                     generic: [
-                        "Complete this level to end ad early",
-                        "I can't reach pink color",
-                        "I sold my soul to reach pink color",
-                        "Most relaxing game!",
-                        "Harder than it looks",
-                        "You:"
+                        "Schließe diese Level ab um Werbung früh zu beenden",
+                        "Ich kann die Rosafarbe nicht erreichen",
+                        "Ich habe mein Seele verkauft um die Rosafarbe zu erreichen",
+                        "Meist relaxierende Spiel",
+                        "Schwerer als es aussieht",
+                        "Du:"
                     ],
                     puzzle: [
-                        "If you complete this puzzle, you're legally skilled",
-                        "If you solve this puzzle, you're legally allowed to close this ad early",
-                        "I don't think you can complete this puzzle",
-                        "I bet you can't solve this puzzle",
-                        "Can you solve this puzzle?",
-                        "I sold my soul to complete this puzzle",
+                        "Wenn du dieses Rätsel macht, bist du rechtens toll",
+                        "Wenn du dieses Rätsel macht, bist du rechtens erlaubt es früh zu schließen",
+                        "Ich finde du kann diese Rätsel nich lösen",
+                        "Ich wette dieses Rätsel kannst du nicht lösen",
+                        "Kann du dieses Rätsel lösen?",
+                        "Ich habe mein Seele verkauft um dieses Level abzuschließen",
                     ],
                     completed: [
-                        "You did it!",
-                        "Amazing!",
-                        "Congratulations!",
+                        "Du hast es gemacht!",
+                        "Toll!",
+                        "Alles gute!",
                     ],
                 }
             },
 
-            action_close: "Close “Ad”",
-            action_closeIn: "Close in {0}",
+            action_close: "“Werbung” schließen",
+            action_closeIn: "Schließen in {0}",
         },
         badge: {
             strings: {
-                state_obtained: "(obtained badge)",
-                state_locked: "(locked badge)",
+                state_obtained: "(erhaltende Abzeichen)",
+                state_locked: "(geschlossende Abzeichen)",
 
                 lock_desc: "???",
             }
         },
         slideshow: {
             strings: {
-                action_skip: "I ain't reading allat",
-                action_next: "Next",
+                action_skip: "Ich lese all das nicht",
+                action_next: "Nächste",
             }
         },
         save: {
-            ie_title: "Import/Export Save",
+            ie_title: "Import/Export Speicherung",
             ie_desc1: "The text box below contains your save data. Copy your save and keep it somewhere safe.",
             ie_desc2: "Alternatively, paste your save there and press “Import from Text Box” to load the save.",
             ie_action_save_text: "Copy to Clipboard",
