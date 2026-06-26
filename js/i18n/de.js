@@ -635,7 +635,7 @@ let i18nDefault = i18nStrings.en = {
             quote: "Produziert für die allmächtigen Omega Cards Spiel, diese Karten sich wirklich Gutscheine um mehr Geld zu ausgeben um mehr Karten zu {draw}... nachdem du alle deiner ein Billiarden freie {draws} benutzt hat, zumindest. Sie sind zu fröhlich Leute Billiarden von freie {draws} zu spenden, tatsächlich, alle sind",
         },
         energy: {
-            name: "Mengenenergie",
+            name: "Massenenergie",
             quote: "Benutzt als Omega Cards Loyalität Programm Währung um dich erlaubt mehrere Karten {draws} an einmal einhandeln",
         },
         points: {
@@ -647,23 +647,23 @@ let i18nDefault = i18nStrings.en = {
             quote: "Reste von übrigen Karten, zu Atomen reduziert. Diese Karten halten fast kein Handelswert (außer die wenige <rarity rarity='ex'></rarity> Karten), so Leute erfinden neue Methode die zu nutzen, z.B. sie zerfetzen um als neues Erweiterungswährung",
         },
         fire: {
-            name: "Feuer Power",
+            name: "Feuerpower",
             quote: "Power von den Feuer Faktion. Machen halten dieses entdeckung die höchste menschliche Leistung",
         },
         water: {
-            name: "Wasser Power",
+            name: "Wasserpower",
             quote: "Power von den Wasser Faktion. Erinnerst dich immer Wasser zu trinken",
         },
         leaf: {
-            name: "Blatt Power",
+            name: "Blattpower",
             quote: "Power von den Blatt Faktion. Du fühlst sich um ein mit die Natur zu sein",
         },
         sun: {
-            name: "Sonne Power",
+            name: "Sonnenpower",
             quote: "Power von den Sonne Faktion. Wird auch angenommen als die Fähigkeit Luft zu kontrollieren",
         },
         moon: {
-            name: "Mond Power",
+            name: "Mondpower",
             quote: "Power von den Mond Faktion. Wird auch angenommen als die Fähigkeit Erde zu kontrollieren",
         },
 
@@ -684,360 +684,370 @@ let i18nDefault = i18nStrings.en = {
         standard: {
             n: {
                 n0: {
-                    name: "No Rewards?",
-                    desc: "No effect.",
-                    quote: "That one option that is programmed to be picked 99% of the time"
+                    name: "Keine Belohnungen?",
+                    desc: "Keine Wirkung.",
+                    quote: "Die Option die mit 99% Wahrscheinlichkeit ausgewählt sei programmiert ist"
                 },
                 n1: {
-                    name: "A Single Dot",
-                    desc: "Gain {+0} points per {draw}.",
+                    name: "Ein einziges Punkt",
+                    desc: "Erhalte {+0} Punkte pro {draw}.",
                     quote: "ここにいる"
                 },
                 n2: {
-                    name: "Half A Dot",
-                    desc: "Randomly gain zero to {+0} points per {draw}.",
-                    quote: "To explain what half a dot even is, we'll need to talk about parallel universes-"
+                    name: "Halb ein Punkt",
+                    desc: "Erhalte zufällig Null bis {+0} Punkte pro {draw}.",
+                    quote: "Um was ein halbes Punkt ist zu erklären, müssen wir parallele Universen besprechen"
                 },
                 n3: {
-                    name: "Card Pack",
-                    desc: "{+0} base bulk. Base bulk increase the amount of {draws} you make at once.",
-                    quote: "Well, if you want to use up all of those one trillion card {draws} you'll need to start {drawing} multiple of them at once, you know?"
+                    name: "Kartenpack",
+                    desc: "{+0} Grundmenge. Grundmenge vergrößert die Menge von {draws} dass du auf einmal machen kann.",
+                    quote: "Nja, ob du alle von die ein Billiarden Karten {draws} du muss anfangen mehrere auf einmal zu {drawing}, weißt du?"
                 },
                 n4: {
-                    name: "Self-Filling Pack",
-                    desc: "{+0} bulk power. Bulk power passively generates bulk energy.",
-                    quote: "Incremental games, also known as idle games"
+                    name: "Selbst-Vergrößernde Packen",
+                    desc: "{+0} Massenpower. Massenpower generiert passiv Massenenergie.",
+                    quote: "Inkrementellspiele, auch bewusst als Leerlaufspiele"
                 },
                 n5: {
-                    name: "Bigger Wrap",
-                    desc: "{+0} bulk energy cap. Bulk energy production past the energy cap are reduced.",
-                    quote: "You can idle for real this time"
+                    name: "Größere Packen",
+                    desc: "{+0} Massenenergiegrenze. Massenenergieproduktionen über die Grenze sind reduziert.",
+                    quote: "Jetzt kannst du echt leerlaufen"
                 },
                 n6: {
-                    name: "Scissors",
-                    desc: "{+0%} pack breaking speed.",
-                    quote: "If you haven't noticed it yet, you can click the pack while it's breaking to break it faster"
+                    name: "Schere",
+                    desc: "{+0%} Packenbremsgeschwindigkeit.",
+                    quote: "Wenn du es noch nicht mitbekommen hast, du kann clicken um packen schneller zu öffnen"
                 },
                 n7: {
-                    name: "Fast Delivery",
-                    desc: "{+0%} pack cooldown speed.",
-                    quote: "Restock faster with our new fast delivery service — applied to all orders 1 card and above!",
+                    name: "Schnelle Lieferungen",
+                    desc: "{+0%} Packenabklingszeitgeschwindigkeit.",
+                    quote: "Schneller auffüllen mit unsere schnelle Lieferungen — appliziert zu alle Bestellungen 1 Karte oder mehr!",
                 },
                 c1: {
                     name: "In-Game Shop",
-                    desc: "Unlock the Marketplace.",
-                    quote: "Find cards that can't be found from {drawing}, and probably spend all of your money trying to out-bid the highest bidder"
+                    desc: "Schalte der Marktplatz frei.",
+                    quote: "Karten die nicht durch {drawing} gefunden werden finden, and probably spend all of your money trying to out-bid the highest bidder"
                 }
             },
             r: {
                 n0: {
-                    name: "Epic Shredding Machine",
+                    name: "Epische Zerfetzenmaschine",
                     desc: "{+0%} shred multiplier.",
                     quote: "Instead of using a small shredder made for the offices, why not use those industrial ones made for ASMR videos on the internet?"
                 },
                 n0b: {
-                    name: "Amazing Shredding Moments",
-                    desc: "{+0%} shred multiplier.",
-                    quote: "Apparently people on the internet love watching things being shredded to pieces! You figure out you could record your Epic Shredding Machines shredding cards and upload it to PipeTube to earn some sweet, sweet ad revenue in the process"
+                    name: "Tolle Zerfetzenmomenten",
+                    desc: "{+0%} Schnipselmultiplikator.",
+                    quote: "Es sieht doch aus als ob Leute im Internet sachen in kleine Stücke zerfetzen schauen lieben! Du kriegst mit dass du deine Epische Zerfetzenmaschine Karten aufnehmen kann und zu PipeTube hochladen um etwas süße, süße Werbeeinnahmen bekommen im prozess"
                 },
                 n1: {
-                    name: "Point Multiplier",
-                    desc: "{+0%} point multiplier.",
-                    quote: "Every incremental game needs exponential growth, a generic currency needs a generic multiplier upgrade"
+                    name: "Punktmultiplikator",
+                    desc: "{+0%} Punktmultiplikator.",
+                    quote: "Jeder Inkrementellspiel verbraucht irgendwelches form von exponentielles Wachstum, eine generische Wahrung verbraucht ein generische Multiplikatorerweiterung"
                 },
                 n1b: {
-                    name: "Point Press",
-                    desc: "{+0%} point multiplier.",
-                    quote: "Press some of your shreds into points. This is precisely how legal points are made too, people won't even be able to notice a difference"
+                    name: "Punktpresse",
+                    desc: "{+0%} Punktmultiplikator.",
+                    quote: "Presse sonstige Schnipseln zu Punkte. Das ist auch genau wie gesetzliche Punkte produziert wird, Leute werden nicht die Differenz erkennen kann"
                 },
                 n2: {
-                    name: "Bulkier Card Packs",
-                    desc: "{+0%} base bulk, but {+1%} cooldown duration.",
-                    quote: "The bulkier, the better"
+                    name: "Massenkartenpacken",
+                    desc: "{+0%} Grundmenge, aber {+1%} Abklingzeitlauf.",
+                    quote: "So mehr massig, so besser"
                 },
                 n3: {
-                    name: "Card Opener Factory",
-                    desc: "{+0%} bulk power, but {+1%} cooldown duration.",
-                    quote: "Produces large quantity of card openers"
+                    name: "Kartenöffnungsfabrik",
+                    desc: "{+0%} Massenpower, aber {+1%} Abklingzeitlauf.",
+                    quote: "Produziert größe Nummern von Kartenöffnungen"
                 },
                 n3b: {
                     name: "Recycling",
-                    desc: "{+0%} bulk power.",
-                    quote: "Reusing cards to open more cards is a good idea actually"
+                    desc: "{+0%} Massenpower.",
+                    quote: "Wiederwendung von Karten um mehr Karten zu öffnen ist echt ein gutes Idee"
                 },
                 n3c: {
-                    name: "Composter",
-                    desc: "{+0%} bulk energy cap.",
-                    quote: "Recycle even harder with this composter designed to make a metric-scrap-ton of cards"
+                    name: "Komposter",
+                    desc: "{+0%} Massenenergiegrenze.",
+                    quote: "Recycle noch härter mit dieses Komposter gemacht um ein tonnenweise Schnipsel von Karten zu produzieren"
+                    //Pun translation courtesy of ChatGPT
+                    //Prompt:
+                    /*
+                    I am translating this card description to german
+                    Recycle even harder with this composter designed to make a metric-scrap-ton of cards
+                    And I am wondering if there is any way to include the pun while preserving the scrap part of it.
+                    The scrap part of the pun is referring to an in game currency named shreds,
+                    I have been calling shreds Schnipsel in german and the process of shredding them zerfetzen
+                     */
+                    //1/4/2025
                 },
                 n4: {
-                    name: "Endurance Training",
-                    desc: "{+0%} card multiplier, but {+1%} cooldown duration and pack breaking duration.",
-                    quote: "The card packs got some endurance training! Now they are harder to break into, but the contents are increased!"
+                    name: "Ausdauertraining",
+                    desc: "{+0%} Kartenmultiplikator, aber {+1%} Abklingzeitlauf und Packenöffnungszeitlauf.",
+                    quote: "Die Kartenpacken haben jetzt ein bisschen Ausdauertraining! Jetzt sind sie schwerer zu öffen, aber die Inhalte sind mehr!"
                 },
                 n4b: {
-                    name: "Flip Attack",
-                    desc: "{+0%} card revealing speed.",
-                    quote: "Reverse card, block, draw 4"
+                    name: "Umdrehenangriff",
+                    desc: "{+0%} Kartenaufdeckengeschwindigkeit.",
+                    quote: "Umkehrkarte, blockieren, ziehe 4"
                 },
                 n5a: {
                     name: "Trending",
-                    desc: "{+0} base fire power gain.",
-                    quote: "ah,<br>that's hot,<br>..., that's hot"
+                    desc: "{+0} Grundfeuerpowererhaltung.",
+                    quote: "ah,<br>das ist heiß,<br>..., das ist heiß"
                 },
                 n5b: {
-                    name: "Ocean",
-                    desc: "{+0} base water power gain.",
+                    name: "Ozean",
+                    desc: "{+0} Grundwasserpowererhaltung.",
                     quote: "i'm blue da be dee da be die"
                 },
                 n5c: {
-                    name: "Forest",
-                    desc: "{+0} base leaf power gain.",
-                    quote: "team trees ftw"
+                    name: "Wald",
+                    desc: "{+0} Grundblattpowererhaltung.",
+                    quote: "team trees für den sieg"
                 },
                 n5d: {
-                    name: "Air",
-                    desc: "{+0} base sun power gain.",
-                    quote: "feel the breath"
+                    name: "Luft",
+                    desc: "{+0} Grundsonnenpowererhaltung.",
+                    quote: "fühl das atmen"
                 },
                 n5e: {
-                    name: "Earth",
-                    desc: "{+0} base moon power gain.",
-                    quote: "it is our home"
+                    name: "Erde",
+                    desc: "{+0} Grundmondpowererhaltung.",
+                    quote: "es ist unsere heimat"
                 },
                 n6a: {
-                    name: "Buttered Popcorn",
-                    desc: "{+0:1} base point boost from “Ad” Booster.",
-                    quote: "Wait, you're telling me people actually enjoy watching ads!?"
+                    name: "Gebuttertes Popcorn",
+                    desc: "{+0:1} Grundpunktboost von “Werbung” Booster.",
+                    quote: "Warte, du sagst mir leute genießen echt Werbungen schauen!?"
                 },
                 n6b: {
-                    name: "Caramel Popcorn",
-                    desc: "{+0:1} base shred boost from “Ad” Booster.",
-                    quote: "Sweet taste for your sweet ad revenue"
+                    name: "Karamell Popcorn",
+                    desc: "{+0:1} Grundschnipselboost von “Werbung” Booster.",
+                    quote: "Süßes Geschmack für dein süßes Werbeeinnahme"
                 },
                 n6c: {
-                    name: "Chocolate Popcorn",
-                    desc: "{+0:1} base faction power boost from “Ad” Booster.",
-                    quote: "Dirty taste for your dirty money"
+                    name: "Schokopopcorn",
+                    desc: "{+0:1} Grundfaktionpower boost von “Werbung” Booster.",
+                    quote: "Schmutziges Geschmack für dein schmutziges Werbeeinnahme"
                 },
                 c1: {
                     name: "System 2",
-                    desc: "Unlock the Infobook. View your stats and other things, though with a price...",
+                    desc: "Schalte die Infobook frei. Schaue deine Statistik und andere sachen, aber durch ein Preis...",
                     quote: "Erm ackstually 🤓"
                 }
             },
             sr: {
                 n0: {
-                    name: "Perfectly Generic Card",
-                    desc: "{+0%} point multiplier.",
-                    quote: "A perfectly generic card that boosts the perfectly generic currency, the genericness is getting too perfect to handle"
+                    name: "Perfekt Allgemein Karte",
+                    desc: "{+0%} Punkt Multiplikator.",
+                    quote: "Ein perfekt allgemein Karte das die perfekt allgemein Wahrung boostet, die Allgemeinheit bekommt zu perfekt zu handeln"
                 },
                 n1: {
-                    name: "A Pair of Points",
-                    desc: "Raise the level in <b><rarity rarity='n'></rarity> A Single Dot</b>'s effect by {^0:1}",
-                    quote: "This is called a line"
+                    name: "Eine Paar Punkte",
+                    desc: "Erhört das Level in den Effekt von <b><rarity rarity='n'></rarity> Ein Einziges Punkt</b> durch {^0:1}",
+                    quote: "Das heißt eine Linie"
                 },
                 n2: {
                     name: "Dice Extractor",
-                    desc: "Raise the level in <b><rarity rarity='n'></rarity> Half a Dot</b>'s effect by {^0:1}",
-                    quote: "Let the pips on the die guide you"
+                    desc: "Erhört das Level in den Effekt von <b><rarity rarity='n'></rarity> Halb ein Punkt</b> durch {^0:1}",
+                    quote: "Lass die Pips auf der Würfel dich leiten"
                 },
                 n3: {
-                    name: "Card Warehouse",
-                    desc: "{+0%} bulk energy cap.",
-                    quote: "At this rate you will need to get yourself a bigger room just so you can store all your cards"
+                    name: "Kartenlager",
+                    desc: "{+0%} Massenenergiegrenze.",
+                    quote: "Mit dieser Tempo verbrauchst du ein größeres Zimmer um alle deine Karten zu lagern"
                 },
                 n4a: {
-                    name: "Fire Power Mastery",
-                    desc: "{+0%} fire power, leaf power, and point gains.",
-                    quote: "Yes, our commentary for these <rarity rarity='sr'></rarity> cards really are just copy-and-pasted from each other, you don't think every gacha game does this all the time?"
+                    name: "Feuerpowermeisterschaft",
+                    desc: "{+0%} Feuerpower, Blattpower, und Punkterhaltung.",
+                    quote: "Ja, unsere Kommentare für diesen <rarity rarity='sr'></rarity> Karten sind wirklich copy-und-paste voneinander, glaubst du nicht das jeder Gachaspiel das macht?"
                 },
                 n4b: {
-                    name: "Water Power Mastery",
-                    desc: "{+0%} water power, fire power, and point gains.",
-                    quote: "Yes, our commentary for these <rarity rarity='sr'></rarity> cards really are just copy-and-pasted from each other, you don't think every gacha game does this all the time?"
+                    name: "Wasserpowermeisterschaft",
+                    desc: "{+0%} Wasserpower, Feuerpower, und Punkterhaltung.",
+                    quote: "Ja, unsere Kommentare für diesen <rarity rarity='sr'></rarity> Karten sind wirklich copy-und-paste voneinander, glaubst du nicht das jeder Gachaspiel das macht?"
                 },
                 n4c: {
-                    name: "Leaf Power Mastery",
-                    desc: "{+0%} leaf power, water power, and point gains.",
-                    quote: "Yes, our commentary for these <rarity rarity='sr'></rarity> cards really are just copy-and-pasted from each other, you don't think every gacha game does this all the time?"
+                    name: "Blattpowermeisterschaft",
+                    desc: "{+0%} Blattpower, Wasserpower, und Punkterhaltung.",
+                    quote: "Ja, unsere Kommentare für diesen <rarity rarity='sr'></rarity> Karten sind wirklich copy-und-paste voneinander, glaubst du nicht das jeder Gachaspiel das macht?"
                 },
                 n4d: {
-                    name: "Sun Power Mastery",
-                    desc: "{+0%} sun power, moon power, and point gains.",
-                    quote: "Yes, our commentary for these <rarity rarity='sr'></rarity> cards really are just copy-and-pasted from each other, you don't think every gacha game does this all the time?"
+                    name: "Sonnenpowermeisterschaft",
+                    desc: "{+0%} Sonnenpower, Mondpower, und Punkterhaltung.",
+                    quote: "Ja, unsere Kommentare für diesen <rarity rarity='sr'></rarity> Karten sind wirklich copy-und-paste voneinander, glaubst du nicht das jeder Gachaspiel das macht?"
                 },
                 n4e: {
-                    name: "Moon Power Mastery",
-                    desc: "{+0%} moon power, sun power, and point gains.",
-                    quote: "Yes, our commentary for these <rarity rarity='sr'></rarity> cards really are just copy-and-pasted from each other, you don't think every gacha game does this all the time?"
+                    name: "Mondpowermeisterschaft",
+                    desc: "{+0%} Mondpower, Sonnenpower, und Punkterhaltung.",
+                    quote: "Ja, unsere Kommentare für diesen <rarity rarity='sr'></rarity> Karten sind wirklich copy-und-paste voneinander, glaubst du nicht das jeder Gachaspiel das macht?"
                 },
                 n5a: {
-                    name: "Rapid Fire",
-                    desc: "{/0:2} <b>Burst</b> cooldown.",
-                    quote: "Needs more dakka"
+                    name: "Schnellfeuer",
+                    desc: "{/0:2} <b>Platzen</b> Abklingzeit.",
+                    quote: "Braucht mehr dakka"
                 },
                 n5b: {
-                    name: "Deep Freeze",
-                    desc: "{/0:2} <b>Freeze Drop</b> cooldown.",
-                    quote: "Near-absolute zero"
+                    name: "Tieffrieren",
+                    desc: "{/0:2} <b>Frierenabfall</b> Abklingzeit.",
+                    quote: "Fast-absolut Null"
                 },
                 n5c: {
                     name: "NPK",
-                    desc: "{/0:2} <b>Fertilizer</b> cooldown.",
-                    quote: "Why do one when you can do all of them?"
+                    desc: "{/0:2} <b>Dünger</b> Abklingzeit.",
+                    quote: "Warum nur ein wenn du alle machen kann_"
                 },
                 n5d: {
-                    name: "Summer",
-                    desc: "{/0:2} <b>Photosynthesis</b> cooldown.",
-                    quote: "Beach episode not included"
+                    name: "Sommer",
+                    desc: "{/0:2} <b>Photosynthesis</b> Abklingzeit.",
+                    quote: "Standfolge nicht dabei"
                 },
                 n5e: {
-                    name: "College",
-                    desc: "{/0:2} <b>Simplification</b> cooldown.",
-                    quote: "Teaches students about critical thinking"
+                    name: "Kolleg",
+                    desc: "{/0:2} <b>Vereinfachung</b> Abklingzeit.",
+                    quote: "Berichtet Studenten über kritisches Denken"
                 },
                 n6a: {
-                    name: "Less Frequent Ads",
-                    desc: "“Ad” Booster buffs based on draw count last {0%} longer.",
-                    quote: "Apprarently there was a limit on how much we could spam ads to players before it starts being counter-productive and drive people away from our game. Maybe we should try reducing the frequency where player watch ads?"
+                    name: "Seltener Werbungen",
+                    desc: "“Werbung” Booster Stärkungen basiert auf Ziehennummer dauern {0%} länger.",
+                    quote: "Scheinbar da gibt ein Grenze auf wie viel wir Werbungen zu Speiler zeigen könnten bevor es kontraproduktiv wird und weg von unsere Spiel leiten. Vielleicht probieren wie die Reduktion von die Frequenz das Spieler Werbungen schauen?"
                 },
                 n6b: {
-                    name: "Longer Ad Boosts",
-                    desc: "“Ad” Booster buffs based on time last {0%} longer.",
-                    quote: "We can now leech off players from those “Watch ads for 10 seconds of boost” games"
+                    name: "Längere Werbungboosts",
+                    desc: "“Werbung” Booster Stärkungen basiert auf Zeit dauern {0%} länger.",
+                    quote: "Wir können jetzt von Speiler von die “Watch ads for 10 seconds of boost” games aussaugen"
                 },
                 c1: {
                     name: "pick-it",
-                    desc: "Unlock the ability to filter cards by some criteria.",
-                    quote: "With pick-it™ you can sort and filter cards by all criterias you can think of!... except for the sorting by card popularity one, that one requires a monthly subscription"
+                    desc: "Schalte die Fähigkeit frei um Karten bei spezifische Kriterien zu ordnen.",
+                    quote: "Mit pick-it™ du kann Karten sortieren und filtern nach alle die Kriterien das du denken könntest!... außer die sortieren nach Popularität, das verbraucht ein monatliche Abonnierung"
                 }
             },
             ssr: {
                 n0: {
-                    name: "Homestretch",
-                    desc: "{+0%} card multiplier.",
-                    quote: "You've made it into half of your draws (logarithmically)! If you like this game be sure to leave a like and subscribe for more content like this"
+                    name: "Hauptgerat",
+                    desc: "{+0%} Kartenmultiplikator.",
+                    quote: "Du hast jetzt die Hälfte von deine Ziehen (logarithmisch) erreicht! Wenn du dieses Spiel magst, bitte "
                 },
                 n0b: {
-                    name: "Scrap",
-                    desc: "{x0} Shred gain from <rarity rarity='r'></rarity> and above cards.",
-                    quote: "quack"
+                    name: "Abfall",
+                    desc: "{x0} Schnipselerhaltung von <rarity rarity='r'></rarity> Karten und besser.",
+                    quote: "quak"
                 },
                 n0c: {
-                    name: "Pyrite",
-                    desc: "{x0} Shred gain from <rarity rarity='sr'></rarity> and above cards.",
-                    quote: "Despite it's being “fool's gold”, it can still be used as an ingredient for the <rarity rarity='sr'></rarity> cards"
+                    name: "Pyrit",
+                    desc: "{x0} Schnipselerhaltung von <rarity rarity='sr'></rarity> Karten und besser.",
+                    quote: "Obwohl es „Katzengold“ ist, es kann immer noch als Zutat für die <rarity rarity='sr'></rarity> Karten"
                 },
                 n0d: {
-                    name: "Diamond",
-                    desc: "{x0} Shred gain from <rarity rarity='ssr'></rarity> and above cards.",
-                    quote: "Diamonds are actually quite common since there are already discoveries on how to fuse them from coal, but the equipments are so expensive that they might be considered rich people's toys"
+                    name: "Diamant",
+                    desc: "{x0} Schnipselerhaltung von <rarity rarity='ssr'></rarity> Karten und besser.",
+                    quote: "Diamanten sind echt häufig weil da schon Entdeckungen auf wie man sie von Kohle fusionieren, aber die Geräte sind so teuer das sich vielleicht als die Spielzeuge von reiche Leute erhalten sei"
                 },
                 n1a: {
-                    name: "Galaxy",
-                    desc: "Gain more Points based on the total amount of stars you have in your card collection (crowned cards count as {0} stars each).<br>(Currently: {1} stars ⇒ {+2%} point gain)",
-                    quote: "In a galaxy, far, far away..."
+                    name: "Galaxie",
+                    desc: "Bekomme mehr Punkte basiert auf die Menge Sterne in deiner Sammlung (gekronte Karten zählen als {0} Sterne pro Karte).<br>(Jetzt: {1} Sterne ⇒ {+2%} Punktbekommen)",
+                    quote: "Es war einmal vor langer Zeit in einer weit, weit entfernten Galaxis..."
                 },
                 n1b: {
-                    name: "Royal Junk",
-                    desc: "Gain more Shreds based on the total amount of crowned cards you have in your collection.<br>(Currently: {0} crowned cards ⇒ {+1%} shred gain)",
-                    quote: "More valuable than regular junk"
+                    name: "Königliche Kram",
+                    desc: "Bekomme mehr Schnipseln basiert auf die Menge gekronte Karten in deiner Sammlung.<br>(Jetzt: {0} gekronte Karten ⇒ {+1%} Schnipselbekommen)",
+                    quote: "Mehr wertvoll als normale Kram"
                 },
                 n1b2: {
-                    name: "Photo Book",
-                    desc: "Gain more Shreds based on the amount of badges you've got.<br>(Currently: {0} badges ⇒ {+1%} shred gain)",
-                    quote: "Ahhh the memories"
+                    name: "Fotoalbum",
+                    desc: "Bekomme mehr Schipseln basiert auf die Menge Abzeichen in deiner Sammlung.<br>(Jetzt: {0} Abzeichen ⇒ {+1%} Schnipselbekommen)",
+                    quote: "Ach die Erinnerungen"
                 },
                 n1c: {
-                    name: "Extra Points",
-                    desc: "Gain more Points based on the total amount of <rarity rarity='ex'></rarity> cards you have in your collection.<br>(Currently: {0} <rarity rarity='ex'></rarity> cards ⇒ {+1%} point gain)",
-                    quote: "More points doesn't hurt, right?"
+                    name: "Extra Punkten",
+                    desc: "Bekomme mehr Punkte basiert auf die Menge <rarity rarity='ex'></rarity> Karten in deiner Sammlung.<br>(Jetzt: {0} <rarity rarity='ex'></rarity> Karten ⇒ {+1%} Punktbekommen)",
+                    quote: "Mehr Punkte scheidet niemand, oder?"
                 },
                 n1d: {
-                    name: "Future Calculator",
-                    desc: "Gain more Points based on the total amount of stat entries you've unlocked.<br>(Currently: {0} entries ⇒ {+1%} point gain)",
+                    name: "Zukunftrechner",
+                    desc: "Bekomme mehr Punkte basiert auf die Menge Statistik Einträge in deiner Sammlung.<br>(Jetzt: {0} Einträge ⇒ {+1%} Punktsammlung)",
                     quote: "1 ^ 2 + 3 = 4"
                 },
                 n1d2: {
                     name: "Black Fridays",
-                    desc: "Gain more Points based on the total amount of level ups made with pick-it Premium.<br>(Currently: {0} times ⇒ {+1%} point gain)",
-                    quote: "Buy them while the sale still lasts!"
+                    desc: "Bekomme mehr Punkte basiert auf die Menge Level-Ups gemacht mit pick-it Premium.<br>(Jetzt: {0} Mal ⇒ {+1%} Punktbekommen)",
+                    quote: "Kaufen sie während die Angebot noch da ist"
                 },
                 n1e: {
-                    name: "Weirdly AI-Generated Checkerboard Floor to Question Reality to",
-                    desc: "Gain more Shreds based on the total amount of skill reactions you've done.<br>(Currently: {0} reactions ⇒ {+1%} shred gain)",
-                    quote: "All the technological advancements, just for this"
+                    name: "Seltsam KI-Generiert Schachbrettfußboden damit Realität zu Befragen",
+                    desc: "Bekomme mehr Schnipseln basiert auf die Menge Fähigkeitreaktionen gemacht.<br>(Jetzt: {0} Reaktionen ⇒ {+1%} Schnipselbekommen)",
+                    quote: "Alle von diese technologische Erweiterungen, nur für das"
                 },
                 n2: {
-                    name: "Saying “No” Permit",
-                    desc: "Allow rerolling the current ad offer, at the cost of {0%} of the watch cooldown ({1s}).",
-                    quote: "It isn't that hard"
+                    name: "“Nein” sagen Lizenz",
+                    desc: "Erlaubt die neu generieren von die jetzige Werbung, mit dem Preis von {0%} des Abklingzeits ({1s}).",
+                    quote: "Es ist nicht so schwer"
                 },
                 s_fire: {
-                    name: "Burst",
-                    desc: "Unlock the <b>Burst</b> skill.",
-                    quote: "Who used explosion magic inside the dungeon again!?"
+                    name: "Explosion",
+                    desc: "Schalte die <b>Explosion</b> Fähigkeit frei.",
+                    quote: "Wer hat Explosionszauber im Verlies schon wieder benutzt!?"
                 },
                 s_fire_1: {
-                    name: "Mega Burst",
-                    desc: "<b>Burst</b> skill skips an additional {+0s} per trigger.",
-                    quote: "Now with flying colors"
+                    name: "Mega Explosion",
+                    desc: "<b>Explosion</b> Fähigkeit überspringt eine weitere {+0s} pro Auslösung.",
+                    quote: "Jetzt mit fliegende Farben"
                 },
                 s_fire_2: {
-                    name: "Explosion Mastery",
-                    desc: "<b>Burst</b> skill gains an additional {+0s} time skip per trigger every time you use this skill.<br>(Currently: {1} times ⇒ {+2s} time skip)",
+                    name: "Explosionsmeisterschaft",
+                    desc: "<b>Explosion</b> skill gains an additional {+0s} time skip per trigger every time you use this skill.<br>(Currently: {1} times ⇒ {+2s} time skip)",
                     quote: "*particle accelerator noises*"
                 },
                 s_water: {
-                    name: "Freeze Drop",
-                    desc: "Unlock the <b>Freeze Drop</b> skill.",
-                    quote: "Do you wanna build a snowman?"
+                    name: "Einfrierungsfall",
+                    desc: "Schalte die <b>Einfrierungsfall</b> Fähigkeit frei.",
+                    quote: "Willst du ein Schneemann bauen?"
                 },
                 s_water_1: {
-                    name: "Slow, but Steady",
-                    desc: "{+0%} bonus card multiplier while <b>Freeze Drop</b> is active.",
-                    quote: "Better be slow to be sure"
+                    name: "Langsam, aber Stetig",
+                    desc: "{+0%} bonus Kartenmultiplikator während <b>Einfrierungsfall</b> aktiv ist.",
+                    quote: "Besser langsam damit sicher zu sein"
                 },
                 s_water_2: {
-                    name: "Top of the Mountain",
-                    desc: "You draw {+1%} more cards when energy cap is reached while <b>Freeze Drop</b> is active.<br>{+0%} <b>Freeze Drop</b>'s energy cap boost.",
+                    name: "Gipfel des Berges",
+                    desc: "Du ziehst {+1%} mehr Karten wenn Energie begrenzt ist während <b>Einfrierungsfall</b> aktiv ist.<br>{+0%} <b>Einfrierungsfall</b> Energiegrenze Boost.",
                     quote: "🍓"
                 },
                 s_leaf: {
-                    name: "Fertilizer",
-                    desc: "Unlock the <b>Fertilizer</b> skill.",
-                    quote: "Faster trees means faster papers means faster shreds"
+                    name: "Düngemittel",
+                    desc: "Schalte die <b>Düngemittel</b> Fähigkeit frei.",
+                    quote: "Schneller Bäumen meint schneller Papier meint schneller Schnipseln"
                 },
                 s_leaf_1: {
-                    name: "Nurture",
-                    desc: "Increase <b>Fertilizer</b>'s multiplier effect by {x0:1}.",
-                    quote: "Take care of the trees"
+                    name: "Ernähren",
+                    desc: "Erhöhe den Multiplikatoreffekt von <b>Düngemittel</b> mit {x0:1}.",
+                    quote: "Kümmer sich um die Bäumen"
                 },
                 s_sun: {
-                    name: "Photosynthesis",
-                    desc: "Unlock the <b>Photosynthesis</b> skill.",
+                    name: "Fotosynthese",
+                    desc: "Schalte die <b>Fotosynthese</b> Fähigkeit frei.",
                     quote: "The sun is a not-so-deadly lazer"
                 },
                 s_sun_1: {
-                    name: "Extra Light",
-                    desc: "Increase <b>Photosynthesis</b>'s buff and debuff effect by {+0%}.",
-                    quote: "Is this a flashbang?"
+                    name: "Extra Licht",
+                    desc: "Erhöhe den Buff und Debuff von <b>Photosynthesis</b> mal {+0%}.",
+                    quote: "Ist das ein Blendgranate?"
                 },
                 s_moon: {
-                    name: "Simplification",
-                    desc: "Unlock the <b>Simplification</b> skill.",
-                    quote: "Can't hold all these currencies"
+                    name: "Vereinfachung",
+                    desc: "Schalte die <b>Vereinfachung</b> Fähigkeit frei.",
+                    quote: "Kann nicht alle diese Währungen halten"
                 },
                 s_moon_1: {
-                    name: "Abstractify",
-                    desc: "Increase <b>Simplification</b>'s buff by {+0%} but also its debuff by {+1%}.",
-                    quote: "This card has been abstracted so much that I can't even bother to write a proper flavor text for it"
+                    name: "Abstrahieren",
+                    desc: "Erhöhe den Buff von <b>Vereinfachung</b> mal {+0%} aber auch die Debuff mal {+1%}.",
+                    quote: "Dieses Karte hat so viel Abstrahiert dass ich nicht ein echtes Flavour-Text schreiben kann"
                 },
                 s_moon_2: {
-                    name: "Abstractify^2",
-                    desc: "Raise the effective level in <rarity rarity='ssr'></rarity><b> Abstractify</b>'s buff effect by {^0:1}.",
-                    quote: "Yeah, and this one either"
+                    name: "Abstrahieren^2",
+                    desc: "Erhöhe den effektive level von den Buff von <rarity rarity='ssr'></rarity><b> Abstrahieren</b> mal {^0:1}.",
+                    quote: "Nja, dieses auch"
                 }
             },
             ur: {
